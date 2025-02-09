@@ -12,13 +12,13 @@ if (!$_SESSION['user_login']) {
     ob_end_flush();
     ?>
 
-<nav class="navbar navbar-default navbar-fixed-top">
+<!-- <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">Просмотр сайта</a></li>
         </ul>
     </div>
-</nav>
+</nav> -->
 <div class="container">
     <h3>Добавить сообщение</h3>
     <!-- форма отправки сообщения -->

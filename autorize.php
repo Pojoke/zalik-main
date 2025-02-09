@@ -1,10 +1,10 @@
 <?php
 include_once "dbconnect.php"; // подключение базы данных
 include_once "action.php";
-// if (!isset($_SESSION)) {
-// 	session_start(); // создаем новую сессию или восстанавливаем текущую
-// }
-// формируем строку для создания формы
+if (!isset($_SESSION)) {
+	session_start(); // создаем новую сессию или восстанавливаем текущую
+}
+
 $str_form = "<form  name='autoForm' action='autorize.php' method='post' onSubmit='return overify_login(this);' >
  			 Логин: <input type='text' name='login'>
  			 Пароль: <input type='password' name='pas'>

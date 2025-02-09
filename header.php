@@ -37,14 +37,13 @@
   ======================================================== -->
 </head>
 
-<body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+  <header id="header" class="header ">
+   
 
       
-
-      <nav id="navmenu" class="navmenu">
+  <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Головна сторінка</a></li>
           
@@ -56,6 +55,8 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+     
 
-    </div>
+    
   </header>
+  <body class="index-page">

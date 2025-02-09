@@ -11,30 +11,17 @@ include "header.php";
 include "h-page.php";
 ?>
 
-<?php
-// блок отображения сообщений
-$c = 0;
-if (isset($_SESSION['user_login'])) {
-    echo "<li><a href='admin_panel.php'>Войти в административную панель</a></li>";
-    echo "<li><a href='action.php?action=logout'>Выйти из аккаунта</a></li>";
-} else {
-    echo "<li><a href='autorize.php'>Войти</a></li>";
-    echo "<li><a href='registration.php'>Зарегистрироваться</a></li>";
-}
-?>
 
 
 
-<nav class="navbar navbar-default navbar-fixed-top">
+
+<!-- <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
         <ul class="nav navbar-nav navbar-right">
-
-
-            
         </ul>
     </div>
 </nav>
-<div class="container bg-grey">
+<div class="container bg-grey"> -->
     <?php
 $arr_id = getPostId();
 echo "<ul>";
@@ -65,5 +52,17 @@ if (count($out) > 0) {
 
 ?>
 </div>
+
+<?php
+// блок отображения сообщений
+$c = 0;
+if (isset($_SESSION['user_login'])) {
+    echo "<li><a href='admin_panel.php'>Войти в административную панель</a></li>";
+    echo "<li><a href='action.php?action=logout'>Выйти из аккаунта</a></li>";
+} else {
+    echo "<li><a href='autorize.php'>Войти</a></li>";
+    echo "<li><a href='registration.php'>Зарегистрироваться</a></li>";
+}
+?>
 <?php
 include "footer.php";

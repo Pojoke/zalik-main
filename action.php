@@ -1,11 +1,11 @@
 <?php
-include "dbconnect.php";
+include_once "dbconnect.php";
 if (!isset($_SESSION)) {
     session_start();
 }
-// if(isset($_REQUEST ['submitAdd'])){ // вариант проверки действия пользователя (нажата ли кнопка формы "submitAdd")
-// add();
-// }
+if(isset($_REQUEST ['submitAdd'])){ // вариант проверки действия пользователя (нажата ли кнопка формы "submitAdd")
+add();
+}
 
 function getPost($id)
 {
