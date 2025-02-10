@@ -220,7 +220,7 @@
             <span>«Коли щось достатньо важливе, ви робите це, навіть якщо шанси не на вашу користь».</span>
             <i class="bi bi-quote quote-icon-right"></i>
           </p>
-          <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+          <img src="assets/img/testimonials/maskAI_620.jpg" width="130px" height="90px" class="testimonial-img" alt="">
           <h3>Ілон Маск</h3>
           
         </div>
@@ -233,7 +233,7 @@
             <span>Думайте масштабно й не погоджуйтеся на менше</span>
             <i class="bi bi-quote quote-icon-right"></i>
           </p>
-          <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+          <img src="assets/img/testimonials/w980-p16x9-2024-12-22T185749Z_1682455386_RC2HUBAJW3SP_RTRMADP_3_USA-TRUMP.jpg" width="120px" height="90px"  class="testimonial-img" alt="">
           <h3>Дональд Трамп:</h3>
           
         </div>
@@ -246,7 +246,7 @@
             <span>Ваш бренд — це те, що люди кажуть про вас, коли вас немає в кімнаті</span>
             <i class="bi bi-quote quote-icon-right"></i>
           </p>
-          <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+          <img src="assets/img/testimonials/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_(39074799225)_(cropped).jpg"  width="140px" height="100px" class="testimonial-img" alt="">
           <h3>Джефф Безос</h3>
           <!-- <h4>Store Owner</h4> -->
         </div>
@@ -259,7 +259,7 @@
             <span>Ідеї не приходять повністю сформованими. Вони стають чіткішими в процесі роботи над ними</span>
             <i class="bi bi-quote quote-icon-right"></i>
           </p>
-          <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+          <img src="assets/img/testimonials/Mark_Zuckerberg_em_setembro_de_2014.jpg" width="100px" height="100px" class="testimonial-img" alt="" >
           <h3>Марк Цукерберг</h3>
           
         </div>
@@ -272,7 +272,7 @@
             <span>Ваш час обмежений, не витрачайте його, живучи чужим життям.</span>
             <i class="bi bi-quote quote-icon-right"></i>
           </p>
-          <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+          <img src="assets/img/testimonials/Steve_Jobs_Headshot_2010-CROP.jpg" class="testimonial-img" alt="">
           <h3>Стів Джобс</h3>
          
         </div>

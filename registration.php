@@ -3,7 +3,7 @@
 include_once "dbconnect.php"; // подключение базы данных
 
 include_once "action.php";
-
+include "header.php";
 if (!isset($_SESSION)) {
 	session_start(); // создаем новую сессию или восстанавливаем текущую
 }
@@ -16,7 +16,7 @@ $str_form = "<form  name='autoForm' action='registration.php' method='post' onSu
  			 <input type='submit' name='go' value='Подтвердить'>
  		     </form>";
 if (!isset($_POST ['go'])) {
-	include "header.php";
+	
 	echo $str_form; // распечатываем форму
 }
 else {
@@ -29,7 +29,7 @@ else {
 		}
 	}
 	else {
-		include "header.php";
+		
 		echo $str_form; // распечатываем форму
 		echo "Пользователь с таким именем уже существует!";
 	}
