@@ -27,7 +27,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+  <script src="https://cdn.ckeditor.com/ckeditor5/34.0.0/classic/ckeditor.js"></script>
   <!-- =======================================================
   * Template Name: Squadfree
   * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
